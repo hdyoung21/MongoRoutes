@@ -1,6 +1,8 @@
 # MongoRoutes
 
-<!-- Your README has a description and link to the video walkthrough -->
-<!-- When you are recording your video, demonstrate "npm i", "npm run start" -->
 
-<!-- ADDING THAT USER CONTROLLERS + ADDING A UPDATE ROUTE (PUT) -->
+<!-- Walk through video -->
+
+https://drive.google.com/file/d/1hajuju8aNVnb5Ktr6uEg3Hbm4NJt3fQq/view
+
+
