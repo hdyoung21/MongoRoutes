@@ -1,21 +1,23 @@
-const { Schema, Model } = require('mongoose');
-const { moveMessagePortToContext } = require('worker_threads');
+const { Schema, model } = require('mongoose');
+const reactionSchema = require('./Reaction');
 
 
-const thoughtSchema = mew Schema(
+const thoughtSchema = new Schema(
     {
         thoughtText: {
             type: String,
             require: true,
             max_length: 280,
             min_length: 1,
+
         },
-    },
+        username: {
+            type: String,
+            required: true,
+        },
+        reactions: [reactionSchema]
+    });
 
-username: [
-    {
-        type: String,
-        required: true
-    }
-],
+const Thought = model('Thought', thoughtSchema);
 
+module.exports = Thought;

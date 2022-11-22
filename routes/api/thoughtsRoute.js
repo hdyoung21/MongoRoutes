@@ -8,6 +8,6 @@ const {
 
 router.route("/").get(collectAllThoughts).post(createNewThought);
 
-router.route("/:thouhgtid").get(collectOneThought).delete(deleteThought)
+router.route("/:thoughtId").get(collectOneThought).delete(deleteThought)
 
 module.exports = router;

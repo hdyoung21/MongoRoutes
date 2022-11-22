@@ -1,6 +1,6 @@
 const express = require('express');
-const db = require('.config/connection');
-const routes = require('/routes');
+const db = require('./config/connection');
+const routes = require('./routes');
 const mongoose = require('mongoose');
 
 const PORT = process.env.port || 3001;
